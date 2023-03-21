@@ -1,0 +1,144 @@
+* {
+    /* Condensed Universal Reset handles all the essentials, and ensures relatively universal default browser-style uniformity */
+
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* <!-- ------------navbar------------- --> */
+
+
+.navBar {
+    margin: 0 auto;
+    width: 1080px;
+    height: 30px;
+    background-color: black;
+    padding: 30px;
+
+}
+
+.headerName {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 40px;
+}
+
+/* <!-- ------------main part------------- --> */
+
+.main {
+    display: flex;
+    width: 1080px;
+    height: 1000px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.feed {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+/* <!-- ------------left part of main section------------- --> */
+
+.leftSide {
+    width: 180px;
+    height: fit-content;
+}
+
+.person {
+    width: 280px;
+    height: 460px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.userPhoto {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 50px auto;
+}
+
+.addAvatar {
+    font-size: 30px;
+}
+
+.personName {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+
+}
+
+
+/* <!-- ------------right  part of main section------------- --> */
+
+.rightSide {
+    width: 780px;
+    height: fit-content;
+}
+
+.likecard {
+    width: 720px;
+    height: 250px;
+    border: 3px solid black;
+    margin-left: 55px;
+    margin-bottom: 25px;
+}
+
+.top {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cardname {
+    flex: 4;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.bottom {
+    height: 150px;
+}
+
+.description {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.likes {
+    flex: 2;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.likebutton {
+    flex: 1;
+    width: 80px;
+    height: 50px;
+    background-color: rgb(250, 206, 30);
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px black;
+    margin-right: 30px;
+}
+
+
+button:hover {
+    background-color: whitesmoke;
+    color: red;
+}

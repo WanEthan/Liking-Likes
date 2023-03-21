@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linking Likes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ------------navbar------------- -->
+
+    <div class="navBar">
+        <h1 class="headerName">Network</h1>
+    </div>
+    <!-- ------------main part------------- -->
+    <p class="feed">Your Feed</p>
+
+    <div class="main">
+
+        <!-- ------------left part------------- -->
+
+        <div class="leftSide">
+            <div class="avatar">
+
+                <div class="person">
+
+                    <img class="userPhoto" src="./icons copy/user-circle.png" alt="user">
+
+                    <a class="addAvatar" href="#">Add an Avatar</a>
+
+                    <p class="personName">Ethan Wan</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- ------------right part------------- -->
+        <div class="rightSide">
+
+
+            <!-- ------------card 1------------- -->
+            <div class="likecard">
+
+                <div class="top">
+                    <p class="cardname">Neil M</p>
+                    <p class="likes1 likes">9 like(s)</p>
+                    <button class="likebutton" onclick="addOne('likes1')">Like</button>
+                </div>
+
+                <div class="bottom">
+                    <p class="description">I just set up this new discord bot, let me know what you all think. <a
+                            href="#" class="link">link</a>
+                    </p>
+                </div>
+
+            </div>
+            <!-- ------------card 2------------ -->
+            <div class="likecard">
+
+                <div class="top">
+                    <p class="cardname">Nicole K</p>
+                    <p class="likes2 likes">12 like(s)</p>
+                    <button class="likebutton" onclick="addOne('likes2')">Like</button>
+                </div>
+
+                <div class="bottom">
+                    <p class="description">Just finished my <a href="" class="link">next comic</a>, check it out
+                    </p>
+                </div>
+
+            </div>
+            <!-- ------------card 3------------ -->
+            <div class="likecard">
+
+                <div class="top">
+                    <p class="cardname">Jim P</p>
+                    <p class="likes3 likes">10 like(s)</p>
+                    <button class="likebutton" onclick="addOne('likes3')">Like</button>
+                </div>
+
+                <div class="bottom">
+                    <p class="description">I can't stop listening to the <a href="" class="link">new album</a> who else
+                        is liking it?
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
